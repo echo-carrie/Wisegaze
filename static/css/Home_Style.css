@@ -84,28 +84,28 @@ a.topnav-left {
 
 @keyframes animate{
   0%, 8%, 100%{
-    background-image: url('/static/img/Bg-Image-1.jpg');
+    background-image: url('/static/img/Bg-Image-5.jpg');
     transform: scale(1);
   }
   17%{
     transform: scale(1, 1.05);
   }
   25%, 33%{
-    background-image: url('/static/img/Bg-Image-2.jpg');
+    background-image: url('/static/img/Bg-Image-6.jpg');
     transform: scale(1);
   }
   41%{
     transform: scale(1, 1.05);
   }
   50%, 58%{
-    background-image: url('/static/img/Bg-Image-3.jpg');
+    background-image: url('/static/img/Bg-Image-7.png');
     transform: scale(1);
   }
   66%{
     transform: scale(1, 1.05);
   }
   75%, 83%{
-    background-image: url('/static/img/Bg-Image-4.jpg');
+    background-image: url('/static/img/Bg-Image-8.jpg');
     transform: scale(1);
   }
   91%{
@@ -166,7 +166,7 @@ a.topnav-left {
   position: absolute;
   width: 30%;
   left: 65%;
-  top: 60%;
+  top: 50%;
 }
 
 .scroll-down{
@@ -199,7 +199,7 @@ a.topnav-left {
 .Section-2{  
   display: inline-block;
   position: relative;
-  background-color: rgb(255, 251, 233);
+  background-image: linear-gradient(81deg, #e27f7a, #d59095, #c3a0b1, #acafce);
   background-size: 100% 110%;
   height: 650px;
   width: 100%;
@@ -244,13 +244,13 @@ a.topnav-left {
 .AboutDetails img{
   margin-left: 50%;
   margin-top: 6.8%;
-  transform: rotate(100deg);
+
   position: absolute;
 }
 
 .AboutDetails p{
   font-family: 'EB Garamond', serif;
-  font-size: 16px;
+  font-size: 18px;
   position:absolute;
   margin-left: 50%;
   margin-right: 8%;
@@ -347,7 +347,9 @@ a.topnav-left {
 .Section-3{  
   display: inline-block;
   position: relative;
-  background-color: #ecf3c6;
+  background: #780206;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #061161, #780206);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #061161, #780206); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   height: 650px;
   width: 100%;
   padding: 0%;
@@ -358,7 +360,7 @@ a.topnav-left {
   font-weight: bolder;
   font-size: 18px;
   text-align: center;
-  color:#214808;
+  color:#acafce;
   margin-top: 7%;
   letter-spacing: 0.3em;
   margin-bottom: 0;
@@ -366,7 +368,7 @@ a.topnav-left {
 
 .ServicesTitle h2{
   font-family: 'EB Garamond', serif;
-  color: rgb(112, 24, 4);
+  color:#E5BEBB;
   font-size: 35px;
   text-align: center;
   margin-top: 0.5%;
@@ -376,8 +378,8 @@ a.topnav-left {
 }
 
 .ServicesTitle img{
-  transform: rotate(100deg);
-  margin-left: 45.5%;
+
+  margin-left: 47%;
   margin-top: 2.5%;
   position: absolute;
 }
@@ -479,7 +481,7 @@ a.topnav-left {
   position: relative;
   height: 300px;
   width: 100%;
-  background-color: rgb(255, 251, 233);
+  background-image: linear-gradient(81deg, #e27f7a, #d59095, #c3a0b1, #acafce);
 }
 
 .ChooseDetails h1{
@@ -488,17 +490,16 @@ a.topnav-left {
   font-size: 35px;
   text-align: center;
   margin-top: 4%;
-  margin-left: 38%;
+  margin-left: 44%;
   margin-bottom: 0;
   position: absolute;
 
 }
 
 .ChooseDetails img{
-  margin-left: 46%;
+  margin-left: 47%;
   margin-top: 6%;
   position: absolute;
-  transform: rotate(100deg);
 }
 
 .ChooseDetails p{
@@ -530,7 +531,7 @@ a.topnav-left {
 .Statistic-Title{
   position: absolute;
   margin-top: 2.7%;
-  margin-left: 23%;
+  margin-left: 35%;
   z-index: 9;
 }
 
@@ -588,7 +589,7 @@ a.topnav-left {
 .Statistic-Title2{
   position: absolute;
   margin-top: 5.7%;
-  margin-left: 8.7%;
+  margin-left: 20%;
   z-index: 9;
 }
 
@@ -671,7 +672,9 @@ a.topnav-left {
   height: 650px;
   width: 100%;
   margin-top: 30px;
-  background-color: #ecf3c6;
+  background: #780206;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #061161, #780206);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #061161, #780206); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .News{

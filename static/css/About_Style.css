@@ -19,12 +19,12 @@ body{
     width: 100%;
     margin: 0;
     padding: 0%;
-    background-color: rgb(255, 251, 233);
+    background-image: linear-gradient(81deg, #e27f7a, #d59095, #c3a0b1, #acafce);
 }
 
 /*Navigation Bar*/
 .Nav-Bar{
-    background-color: rgb(255, 251, 233);
+    background-image: linear-gradient(81deg, #e27f7a, #d59095, #c3a0b1, #acafce);
     padding-bottom: 22px;
 }
 
@@ -119,9 +119,15 @@ a.topnav-left {
     color:rgb(253, 253, 253);
     margin-top: 0px;
 }
+.image{
 
+    position: absolute;
+    width: 100%;
+    background: rgb(0,0,0,0.4);
+    height: 365px;
+}
 .image-overlay{
-    background: url('/static/tuxpi.com.16803469443.jpg');
+    background-image: url("static/AboutUsImage.jpg");
     background-size: 100% 100%;
     background-repeat: no-repeat;
     width: 100%;
@@ -129,18 +135,14 @@ a.topnav-left {
     position: relative;
 }
 
-.image{
-    position: absolute;
-    width: 100%;
-    background: rgb(0,0,0,0.4);
-    height: 365px;
-  }
 
 /*Section 2*/
 .Section-2{  
     display: inline-block;
     position: relative;
-    background-color: rgb(255, 251, 233);
+    background: #780206;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #061161, #780206);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #061161, #780206); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     background-size: 100% 110%;
     height: 450px;
     width: 100%;
@@ -148,7 +150,7 @@ a.topnav-left {
 
 .AboutDetails h1{
     font-family: 'EB Garamond', serif;
-    color:   rgb(112, 24, 4);
+    color:  #E5BEBB;
     font-size: 35px;
     position: absolute;
     margin-left: 11%; 
@@ -164,14 +166,15 @@ a.topnav-left {
 .AboutContent{
     position: absolute;
     margin-top: 7%;
-    margin-right: 51%;
-    margin-left: 3%;
+    margin-right: 53%;
+    margin-left: 5%;
 }
 
 .AboutContent p, li{
     font-family: 'EB Garamond', serif;
-    font-size: 16px; 
+    font-size: 18px;
     text-align: justify;
+    color: white;
 }
   
 .Aboutimg{
@@ -193,7 +196,7 @@ a.topnav-left {
 .Section-3{  
     display: inline-block;
     position: relative;
-    background-color: #ecf3c6;
+    background-image: linear-gradient(81deg, #e27f7a, #d59095, #c3a0b1, #acafce);
     height: 340px;
     width: 100%;
     margin-top: -5px;
@@ -225,7 +228,7 @@ a.topnav-left {
     margin-left: 46%;
     margin-top: 2.5%;
     position: absolute;
-    transform: rotate(100deg);
+
 }
   
 .GoalsDetail p{
@@ -244,7 +247,9 @@ a.topnav-left {
     position: relative;
     height: 450px;
     width: 100%;
-    background-color: rgb(255, 251, 233);
+    background: #780206;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #061161, #780206);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #061161, #780206); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     margin-top: -5px;
 }
 
@@ -255,7 +260,7 @@ a.topnav-left {
 
 .GoalPoints h1{
     font-family: 'EB Garamond', serif;
-    color:   rgb(112, 24, 4);
+    color: #E5BEBB;
     font-size: 35px;
     position: absolute;
     margin-left: 11.5%;
@@ -276,6 +281,7 @@ a.topnav-left {
     margin-top: 9.5%;
     margin-right: 47%;
     margin-left: 3%;
+    color: white;
 }
   
 .Goalsimg img{
@@ -293,7 +299,7 @@ a.topnav-left {
     position: relative;
     height: 450px;
     width: 100%;
-    background-color: rgb(255, 251, 233);
+    background-image: linear-gradient(81deg, #e27f7a, #d59095, #c3a0b1, #acafce);
     margin-top: -5px;
 }
 .GoalPoints.Point-2{
@@ -322,7 +328,9 @@ a.topnav-left {
     position: relative;
     height: 450px;
     width: 100%;
-    background-color: rgb(255, 251, 233);
+    background: #780206;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #061161, #780206);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #061161, #780206); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     margin-top: -5px;
 }
 .GoalPoints.Point-3{
@@ -330,6 +338,7 @@ a.topnav-left {
 }
 .GoalPoints.Point-3 p{
     margin-top: 10%;
+    color: white;
 }
 
 /*Section 7*/

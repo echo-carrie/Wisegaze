@@ -1,11 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
-<head> 
+<head>
+    <!-- 引入 Google Fonts 字体 -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=EB+Garamond&family=Elsie&family=Fjalla+One&family=Source+Serif+Pro:wght@300&display=swap" rel="stylesheet">
+    <!-- 引入自定义的 CSS 文件 -->
     <link type="text/css" rel="stylesheet" href="{{url_for('static', filename='css/Home_Style.css')}}">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" /> 
+    <!-- 引入 Font Awesome 图标 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- 设置网站图标 -->
     <link rel="icon" href="{{url_for('static', filename='Fire_logo_title.jpg')}}" type="image/jpg" sizes="128x128" >
     <title>Fire Eye</title>
 </head>
@@ -14,54 +18,67 @@
 <section>
 <div class="Images"></div>
 <div class="Section-1">
+    <!-- 导航栏部分 -->
     <div class="image-overlay">
     <ul class="Navigation-Bar">
+        <!-- 网站 Logo -->
         <a class="title" href="{{url_for('View.Home')}}"><img class="logo" src="{{url_for('static', filename='logo.png')}}" height="110px" width="100px"></a>
-        <a class="topnav-left" href="{{url_for('View.Home')}}">Fire Eye</a>
+        <!-- 网站标题 -->
+        <a class="topnav-left" href="{{url_for('View.Home')}}">智慧眸</a>
+        <!-- 导航链接 -->
         <div class="topnav-right">
-        <li class="Nav-Link"><a  href="{{url_for('View.Home')}}"><i style="padding-right:10px;" class="fa fa-home"></i>HOME</a></li>
-        <li class="Nav-Link"><a  href="{{url_for('.Home', _anchor='section2')}}"><i style="padding-right:10px;" class="fa fa-tree"></i>ABOUT</a></li>
-        <li class="Nav-Link"><a  href="{{url_for('.Home', _anchor='section3')}}"><i style="padding-right:10px;" class="fa fa-list-ul"></i>SERVICES</a></li>
-        <li class="Nav-Link"><a  href="{{url_for('.Home', _anchor='section6')}}"><i style="padding-right:10px;" class="fa fa-leaf"></i>NEWS</a></li>
-        <li class="Nav-Link"><a  href="{{url_for('.Home', _anchor='section8')}}"><i style="padding-right:10px;" class="fa fa-phone"></i>CONTACT</a></li>
+        <li class="Nav-Link"><a  href="{{url_for('View.Home')}}"><i style="padding-right:10px;" class="fa fa-home"></i>首页</a></li>
+        <li class="Nav-Link"><a  href="{{url_for('.Home', _anchor='section2')}}"><i style="padding-right:10px;" class="fa fa-tree"></i>关于</a></li>
+        <li class="Nav-Link"><a  href="{{url_for('.Home', _anchor='section3')}}"><i style="padding-right:10px;" class="fa fa-list-ul"></i>服务</a></li>
+        <li class="Nav-Link"><a  href="{{url_for('.Home', _anchor='section6')}}"><i style="padding-right:10px;" class="fa fa-leaf"></i>新闻</a></li>
+        <li class="Nav-Link"><a  href="{{url_for('.Home', _anchor='section8')}}"><i style="padding-right:10px;" class="fa fa-phone"></i>联系方式</a></li>
         </div>
     </ul>
-    <h1>OUR MOTIVE</h1>
+
+        <!-- 网站标题 -->
+    <h1></h1>
+         <!-- 口号 -->
     <div class="slogan">
-    <h2>KEEP AN</h2>
-    <h2>EYE ON FORESTS</h2>
+    <h2>疲劳驾驶检测系统</h2>
+
     </div>
+        
+        <!-- 引用 -->
     <div class="Quote">
-    <h3>"We believe in protecting everything that is around us because in the end Nature is all that we have and all that we will ever need"</h3>
+    <h3>"旅途漫漫，难免疲惫。疲劳驾驶，犹如一场无形的瘟疫，吞噬着无数鲜活的生命。在生命的旅途中，安全永远是第一位的。让我们携手对抗疲劳驾驶，保护每一条宝贵的生命，让旅途不再是对生存的威胁，而是一段安全愉快的旅程。"</h3>
     </div>
+        <!-- 向下滚动箭头 -->
     <a href="{{url_for('.Home', _anchor='section2')}}" class="scroll-down"><i class="fa fa-angle-down fa-2x"></i></a> 
 </div>  
 </div>
 </section>
 
+<!-- 关于项目的介绍 -->
 <section id="section2">
-<div class="Section-2" > 
-    <div class="Aboutimgs reveal fade-left">
-    <img class="image1" src="https://www.goodfreephotos.com/albums/united-states/wyoming/yellowstone-national-park/forest-fire-yellowstone-national-park-wyoming.jpg" height="420px" width="350px">
-    <img class="image2" src="https://i.pinimg.com/originals/1f/c8/3b/1fc83baf9112734ff48e57990d3c065b.jpg" height="250px" width="320px">
-    </div> 
+<div class="Section-2" >
 
+    <!-- 关于 Fire Eye 的图片 -->
+    <div class="Aboutimgs reveal fade-left">
+    <img class="image1" src="static/img/IndexImg/about/about-1.png" height="420px" width="320px">
+    <img class="image2" src="static/img/IndexImg/about/about-2.png" height="250px" width="320px">
+    </div>
+
+    <!-- 项目的详细信息 -->
     <div class="AboutTrans reveal fade-right">
     <div class="AboutDetails">
-    <h1>ABOUT FIRE EYE</h1>
-    <img src="https://static.vecteezy.com/system/resources/previews/011/318/893/original/green-leaf-branch-watercolor-free-png.png" height="100px" width="85px">
+    <h1>关于疲劳驾驶</h1>
+
     <p>
-        The dry period from the end of April until the advent of the monsoon in July is "fire season" 
-        in Pakistan’s forests, which cover the Hindu Kush Himalayas in the country’s north. In these 
-        days, a tiny spark can turn into an out-of-control wildfire raging across forested regions of 
-        Punjab, Kashmir, Khyber Pakhtunkhwa, and Balochistan for days. Besides causing a number of 
-        casualties, the fires killed trees, which consume centuries-old trees, destroy precious 
-        habitats, and kill wildlife. They could also have exacerbated recent flash flooding in some 
-        regions. The destruction of medicinal plants, beehives, and the nut-bearing Chilgoza pine, 
-        in particular, affects local livelihoods to a great extent. Fire Eye is now here to keep an eye 
-        on those flames in check. It detects even trace amounts of fire gases and sounds the alarm before
-        the fire can spread. This buys firefighters valuable time so they can respond that much sooner 
-        to put out the blaze. 
+          根据现有的统计数据，每年有130多万人死于道路交通事故，2000万至5000万
+人因道路交通事故而遭受非致命伤害。美国国家公路交通安全管理局（NHTSA）
+保守估计，每年总共有10万起车祸是由驾驶员嗜睡直接导致的。这些事故造成大约
+1550人死亡，71000人受伤，经济损失125亿美元。2009年，美国国家睡眠基金
+会（NSF）报告称，54%的成年司机在开车时感到昏昏欲睡，其中28%的人实际上睡
+着了。德国道路安全委员会（DVR）声称，四分之一的公路交通事故死亡是由于
+司机一时的昏昏欲睡造成的。这些统计数字表明，司机困倦是交通事故的主要原因
+之一。通过调查发现，因疲劳引起的交通事故占总数的20%左右，占特大交通事故
+的40%以上。如果在交通事故发生前的一瞬间及时向驾驶员发出预警，就可能避
+免近90%的交通事故。
     </p>
     </div>
     
@@ -75,11 +92,12 @@
         </tr>
     </table>
     </div>
+
     <div class="AboutButton">
         <nav>
             <ul>
               <li>
-                <a  href="{{url_for('View.About')}}">READ MORE
+                <a  href="{{url_for('View.About')}}">了解更多
                 <span></span><span></span><span></span><span></span></a>
               </li>
             </ul>
@@ -94,7 +112,7 @@
         <div class="ServicesTitle reveal fade-top"  id="section3">
             <h1>WHAT WE DO</h1>
             <h2>SERVICES WE OFFER</h2>
-            <img src="https://static.vecteezy.com/system/resources/previews/011/318/893/original/green-leaf-branch-watercolor-free-png.png" height="100px" width="85px">
+            <img src="static/img/DecCar/292dbc335253262703b1ef9cfba2bd1.png" height="100px" width="85px">
         </div>
 
         <div class="Services Service-1 reveal fade-bottom">
@@ -103,7 +121,7 @@
                 <a style="text-decoration: none; color: black;" href="{{url_for('View.LiveMonitor')}}"><span class="dot"><i style="margin-left: 30%; margin-top: 14.8%;" class="fa fa-angle-right fa-2x"></i></span></a>
             </div> 
             <div class="ServiceDetails  Service-1">
-             <h1>Live Monitoring</h1>
+             <h1>实时检测</h1>
             </div>
         </div>
 
@@ -123,7 +141,7 @@
                 <a style="text-decoration: none; color: black;" href="{{url_for('View.FireAlerts')}}"><span class="dot"><i style="margin-left: 30%; margin-top: 14.8%;" class="fa fa-angle-right fa-2x"></i></span></a>
             </div>
             <div class="ServiceDetails  Service-3">
-                <h1>FireAlert Reports</h1>
+                <h1>检测报告</h1>
             </div>
         </div>
 
@@ -143,11 +161,9 @@
 <section>
     <div class="Section-4">       
         <div class="ChooseDetails reveal fade-top">
-            <h1>WHY CHOOSE US</h1>
-            <img src="https://static.vecteezy.com/system/resources/previews/011/318/893/original/green-leaf-branch-watercolor-free-png.png" height="100px" width="85px">
-            <p>In Pakistan, the peak fire season usually begins in late January and lasts around 22 weeks. The following 
-               statistics from recent years forest fires in Pakistan, including regions with the most fire alerts, 
-               explain why we need Fire Eye for forest protection in Pakistan.
+            <h1>选择我们</h1>
+            <img src="static/img/DecCar/b52c725ee173df8879a634a835cf14b.png" height="100px" width="85px">
+            <p>据世界卫生组织发布的《2018 年全球道路安全 现状报告》，交通事故对全球公共健康造成重大负担，每年导致5000万人受伤和135万人死亡。道路交通事故不仅威胁到人的生命，而且给人们的财产造成损失。因此，对驾驶员在驾驶过程中进行疲劳程度的监测具有重要的意义。监测驾驶员的疲劳程度可以帮助减少交通事故的发生，保障驾驶员和其他道路使用者的安全。
             </p>
         </div>
     </div>
@@ -157,58 +173,54 @@
     <div class="Section-5">  
         
         <div class="Statistic-Title">
-            <h1>HISTORICAL FIRE ALERTS IN PAKISTAN</h1>
+            <h1>全国历史交通事故数量</h1>
         </div>
         <div class="Statistic reveal fade-top">
             <div class="counter-count">
-                <span class="count count-number">15,207</span>
-                <h1>Jan 2022 - Dec 2022</h1>
+                <span class="count count-number">247,646</span>
+                <h1>2019</h1>
             </div>
             <div class="counter-count">
-                <span class="count count-number">10,191</span>
-                <h1>Jan 2021 - Jan 2022</h1>
+                <span class="count count-number">244,674</span>
+                <h1>2020</h1>
             </div>
             <div class="counter-count">
-                <span class="count count-number">12,156</span>
-                <h1>Jan 2020 - Jan 2021</h1>
+                <span class="count count-number">273,098</span>
+                <h1>2021</h1>
             </div>
             <div class="counter-count">
-                <span class="count count-number">13,278</span>
-                <h1>Jan 2019 - Jan 2020</h1>
+                <span class="count count-number">256,409</span>
+                <h1>2022</h1>
             </div>
         </div>
 
         <div class="Statistic-Title2">
-            <h1>TREE COVER LOSS DUE TO FIRE IN PAKISTAN</h1>
+            <h1>引起交通事故的原因</h1>
         </div>
         <div class="Statistic-Para reveal fade-left">
-            <p>Pakistan has <b>4.2 million ha</b> of forest and planted trees, which equates to <b>4.8 percent</b> of the total land area.
-               <b>From 2001 to 2021</b>, Pakistan lost <b>5.46kha</b> of tree cover from fires and <b>4.29kha</b> from all other causes of loss. 
-               The year with the most tree cover loss due to fires was 2006 with <b>853ha</b> lost to fires — <b>63%</b> of all tree cover loss 
-               for that year. Among regions of Pakistan, <b>F.A.T.A.</b> had the highest rate of tree cover loss due to fires with an average of 
-               <b>189ha</b> lost per year between 2001 to 2021 year period.</p>
+            <p>随着我国经济的高速增长，人们生活质量的提高， 家用汽车已经成为人们生活中不可或缺的一部分，<b>截至 2021年底</b>，全国汽车保有量达到<b>3.02亿辆</b>，且每年以将近<b>10%</b>>的速度增长。随着道路上的车辆越来越多，发生事故的概率也大大增加，其中<b>30%以上</b>的事故是因驾驶员疲劳驾驶，所以对驾驶员的疲劳驾驶检测与预警对保护驾驶员的生命财产具有重要意义。</p>
         </div>
 
         <div class="Statistic2 reveal fade-right" >
             <div class="counter-count2">
-                <span class="count count-number">189</span>
-                <i style="position: absolute; color: white; margin-left: 19.5%; margin-top: 23%; font-size: larger;">ha</i>
-                <h1 style="margin-left: 25px;">F.A.T.A</h1>
+                <span class="count count-number">5,251</span>
+                <i style="position: absolute; color: white; margin-left: 19.5%; margin-top: 23%; font-size: larger;">起</i>
+                <h1 style="margin-left: 25px;">北京</h1>
             </div>
             <div class="counter-count2">
-                <span class="count count-number">79</span>
-                <i style="position: absolute; color: white; margin-left: 19.5%; margin-top: 23%; font-size: larger;">ha</i>
-                <h1 style="margin-left: 25px;">N.W.F.P</h1>
+                <span class="count count-number">1,242</span>
+                <i style="position: absolute; color: white; margin-left: 19.5%; margin-top: 23%; font-size: larger;">起</i>
+                <h1 style="margin-left: 25px;">上海</h1>
             </div>
             <div class="counter-count2">
-                <span class="count count-number">6</span>
-                <i style="position: absolute; color: white; margin-left: 19.5%; margin-top: 23%; font-size: larger;">ha</i>
-                <h1 style="width: 190px;">Azad Kashmir</h1>
+                <span class="count count-number">25,353</span>
+                <i style="position: absolute; color: white; margin-left: 19.5%; margin-top: 23%; font-size: larger;">起</i>
+                <h1 style="margin-left: 25px;">广东</h1>
             </div>
             <div class="counter-count2">
-                <span class="count count-number">5</span>
-                <i style="position: absolute; color: white; margin-left: 19.5%; margin-top: 23%; font-size: larger;">ha</i>
-                <h1 style="width: 190px;">Northern Area</h1>
+                <span class="count count-number">30,164</span>
+                <i style="position: absolute; color: white; margin-left: 19.5%; margin-top: 23%; font-size: larger;">起</i>
+                <h1 style="margin-left: 25px;">湖北</h1>
             </div>
         </div>
     </div>
@@ -217,32 +229,32 @@
 <section>
     <div class="Section-6">
         <div class="ServicesTitle reveal fade-top" id="section6">
-            <h1 style="color: rgb(0, 58, 0);">WHAT'S GOING ON</h1>
-            <h2 style="margin-left: 33.5%;">LATEST NEWS & BLOGS</h2>
-            <img src="https://static.vecteezy.com/system/resources/previews/011/318/893/original/green-leaf-branch-watercolor-free-png.png" height="100px" width="85px">
+            <h1 style="color:white;">由于疲劳驾驶产生的事故</h1>
+            <h2 style="margin-left: 44%;color:#E5BEBB">最近报道</h2>
+            <img src="static/img/DecCar/292dbc335253262703b1ef9cfba2bd1.png" style="margin-left: 47%" height="100px" width="85px">
         </div>
 
         <div class="News News-1 reveal fade-top">
-            <img src="https://i.dawn.com/primary/2022/06/62a5759a6e0dd.jpg" width="350px" height="280px">
+            <img src="static/img/News/883ea0f0afdd41b5cb749f73344d62f.png" width="350px" height="280px">
             <div class="NewsHeading  News-1">
-                <p>June 12, 2022 / By Mohammad Ashfaq</p>
-                <a href="https://www.dawn.com/news/1694391">KP wildfires damage forests, pastures over 14,440 acres in fortnight</a>
+                <p>2020年7月20日/澎湃新闻</p>
+                <a href="https://www.thepaper.cn/newsDetail_forward_8345921">宁波高速7秒车祸竟因车主睡着了，交警：疲劳驾驶害人害己</a>
             </div>
         </div>
 
         <div class="News News-2 reveal fade-top">
-            <img src="https://i.dawn.com/primary/2022/05/6293c847aacb3.jpg" width="350px" height="280px">
+            <img src="static/img/News/eae3ea9398fdf19e5e7c059dbeb2eb1.png" width="350px" height="280px">
             <div class="NewsHeading  News-1">
-                <p>June 2, 2022 / By Muzhira Amin</p>
-                <a href="https://www.dawn.com/news/1692119/the-balochistan-forest-fire-engulfed-millions-of-trees-and-the-hopes-of-generations-to-come">The Balochistan forest fire engulfed millions of trees and hopes of generation to come</a>
+                <p>2021年5月25日/厦门高速交警</p>
+                <a href="https://www.thepaper.cn/newsDetail_forward_12837230">疲劳闭眼4.3秒致3人死亡，此事故被认定为生产安全责任事故</a>
             </div>
         </div>
 
         <div class="News News-3 reveal fade-top">
-            <img src="https://imagevars.gulfnews.com/2022/06/08/WPK-220608-Margallas-1654703336284_18144012b71_large.jpg" width="345px" height="280px">
+            <img src="static/img/News/d10dfab83e6f33939fe444fe2138b1e.png" width="345px" height="280px">
             <div class="NewsHeading  News-1">
-                <p>June 8, 2022 / By Sana Jamal</p>
-                <a href="https://gulfnews.com/world/asia/pakistan/devastating-forest-fires-continue-to-rage-in-pakistan-amid-extreme-heatwave-1.88454394">Devastating forest fires continue to rage in Pakistan amid extreme heatwave</a>
+                <p>2023年7月13日/泉州高速交警</p>
+                <a href="https://www.quanzhou.gov.cn/zfb/xxgk/bmgg/jtcx/202307/t20230713_2903689.htm">引以为戒！泉州高速交警通报近期“疲劳驾驶”事故案例警示</a>
             </div>
         </div>
     </div>
@@ -253,7 +265,7 @@
         <div class="ServicesTitle reveal fade-top">
             <h1>PROTECTING FORESTS</h1>
             <h2 style="margin-left: 20%;">HOW FIRE EYE HELPS FIGHT FOREST FIRES</h2>
-            <img src="https://static.vecteezy.com/system/resources/previews/011/318/893/original/green-leaf-branch-watercolor-free-png.png" height="100px" width="85px">
+            <img src="static/img/DecCar/b52c725ee173df8879a634a835cf14b.png" height="100px" width="85px">
         </div>
         <div class="Video">
             <div class="scale-video">
