@@ -20,13 +20,13 @@
         <div class="Nav-Bar">
         <ul class="Navigation-Bar">
             <a class="title" href="{{url_for('View.Home')}}"><img class="logo" src="{{url_for('static', filename='Fire_Logo.png')}}" width="100px" height="100px"></a>
-            <a class="topnav-left" href="{{url_for('View.Home')}}">Fire Eye</a>
+            <a class="topnav-left" href="{{url_for('View.Home')}}">慧眸智行</a>
         <div class="topnav-right">
-            <li class="Nav-Link"><a  href="{{url_for('View.Home')}}"><i style="padding-right:10px;" class="fa fa-home"></i>HOME</a></li>
-            <li class="Nav-Link"><a  href="{{url_for('View.About')}}"><i style="padding-right:10px;" class="fa fa-tree"></i>ABOUT</a></li>
-            <li class="Nav-Link"><a  href="{{url_for('View.Home', _anchor='section3')}}"><i style="padding-right:10px;" class="fa fa-list-ul"></i>SERVICES</a></li>
-            <li class="Nav-Link"><a  href="{{url_for('View.Home', _anchor='section6')}}"><i style="padding-right:10px;" class="fa fa-leaf"></i>NEWS</a></li>
-            <li class="Nav-Link"><a  href="{{url_for('.Prediction', _anchor='section3')}}"><i style="padding-right:10px;" class="fa fa-phone"></i>CONTACT</a></li>
+            <li class="Nav-Link"><a  href="{{url_for('View.Home')}}"><i style="padding-right:10px;" class="fa fa-home"></i>首页</a></li>
+            <li class="Nav-Link"><a  href="{{url_for('View.About')}}"><i style="padding-right:10px;" class="fa fa-tree"></i>关于</a></li>
+            <li class="Nav-Link"><a  href="{{url_for('View.Home', _anchor='section3')}}"><i style="padding-right:10px;" class="fa fa-list-ul"></i>服务</a></li>
+            <li class="Nav-Link"><a  href="{{url_for('View.Home', _anchor='section6')}}"><i style="padding-right:10px;" class="fa fa-leaf"></i>新闻</a></li>
+            <li class="Nav-Link"><a  href="{{url_for('.Prediction', _anchor='section3')}}"><i style="padding-right:10px;" class="fa fa-phone"></i>联系方式</a></li>
         </div>
         </ul>
         </div>
@@ -37,9 +37,9 @@
             </div>
         </div>
         <div class="Content-text">
-        <h1>MODEL PREDICTION</h1>
-        <a href="{{url_for('View.Home')}}">Home&nbsp&nbsp&nbsp&nbsp<i class="fa fa-angle-right"></i></a>
-        <p>&nbsp&nbsp&nbsp&nbspModel Prediction</p>
+        <h1>文件上传</h1>
+        <a style="margin-left: 6%" href="{{url_for('View.Home')}}">首页 &nbsp&nbsp&nbsp&nbsp&nbsp<i class="fa fa-angle-right"></i></a>
+        <p>&nbsp&nbsp&nbsp&nbsp&nbsp 文件上传</p>
         </div>
         </div>
     </div>
@@ -48,14 +48,13 @@
 <section>
   <div class="Section-2" >
       <div class="PredictTitle">
-      <img src="https://static.vecteezy.com/system/resources/previews/011/318/893/original/green-leaf-branch-watercolor-free-png.png" height="100px" width="100px">
-      <h1>FIRE AND NON FIRE MODEL PREDICTION</h1>
+      <h1>检测是否达到疲劳驾驶状态</h1>
       </div>
 
   <div class="PredictForm">
   <form class="form-horizontal" action="{{url_for('View.get_output', _anchor='section2')}}" method="post" enctype="multipart/form-data">
     <div>
-      <label id="Up_Hd" for="pwd">Upload Image For Prediction:</label>
+      <label id="Up_Hd" for="pwd">上传文件进行检测：</label>
       <div>          
         <br>
         <input type="file" class="form-control" placeholder="Hours Studied"  name="my_image" id="pwd">    

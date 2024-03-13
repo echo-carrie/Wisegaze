@@ -19,12 +19,12 @@ body{
     width: 100%;
     margin: 0;
     padding: 0%;
-    background-color: rgb(255, 251, 233);
+    background-image: linear-gradient(81deg, #e27f7a, #d59095, #c3a0b1, #acafce);
 }
 
 /*Navigation Bar*/
 .Nav-Bar{
-    background-color: rgb(255, 251, 233);
+    background-image: linear-gradient(81deg, #e27f7a, #d59095, #c3a0b1, #acafce);
     padding-bottom: 22px;
 }
 
@@ -89,8 +89,8 @@ a.topnav-left {
 
 .Content-text{
     position: absolute;
-    top: 55%;
-    left: 26%;
+    top: 53%;
+    left: 23%;
     transform: translate(-28%, -50%);
 }
 
@@ -140,7 +140,7 @@ a.topnav-left {
   .Section-2{
     display: inline-block;
     position: relative;
-    background-color: rgb(255, 251, 233);
+    background-image: linear-gradient(81deg, #e27f7a, #d59095, #c3a0b1, #acafce);
     background-size: 100% 110%;
     height: 900px;
     width: 100%;
@@ -151,13 +151,12 @@ a.topnav-left {
     color:   rgb(112, 24, 4);
     font-size: 35px;
     position: absolute;
-    margin-left: 24%; 
-    margin-top: 2%;
+    margin-left: 32%;
+    margin-top: 3%;
     font-weight: bolder;
 }
   
 .PredictTitle img{
-    transform: rotate(70deg);
     position: absolute;
     margin-left: 15%;
 }
