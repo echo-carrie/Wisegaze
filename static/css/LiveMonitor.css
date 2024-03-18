@@ -144,10 +144,73 @@ a.topnav-left {
     position: relative;
     background-color: rgb(255, 251, 233);
     background-size: 100% 110%;
-    height: 800px;
+    height:750px;
     width: 100%;
 }
 
+.Section-21 {
+  height: 100%;
+  width: 60%;
+  float: left;
+  box-sizing: border-box;
+  border: 1px solid black; /* 可选：添加边框以便查看分割效果 */
+  display: flex;
+  flex-direction: column;
+}
+
+.top-div {
+  flex: 8;
+  background-color: #f2f2f2;
+}
+
+.bottom-div {
+  flex: 2;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.buttons button {
+  width: 150px;
+  height: 40px;
+  border-radius: 5px;
+  border: none;
+  background-color: #4caf50;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.buttons button:hover {
+  background-color: #45a049;
+}
+.Section-22 {
+  height: 100%;
+  width: 40%;
+  float: left;
+  box-sizing: border-box;
+  border: 1px solid black; /* 可选：添加边框以便查看分割效果 */
+  display: flex;
+  flex-direction: column;
+}
+
+.Section-22 .data1 {
+  flex: 1;
+  border: 1px solid black; /* 可选：添加边框以便查看分割效果 */
+  /* data1的样式 */
+}
+
+.Section-22 .data2 {
+  flex: 1;
+  border: 1px solid black; /* 可选：添加边框以便查看分割效果 */
+  /* data2的样式 */
+}
+.Section-22 .data3{
+  flex: 1;
+  border: 1px solid black; /* 可选：添加边框以便查看分割效果 */
+  /* data2的样式 */
+}
 .LiveTitle h1{
     font-family: 'EB Garamond', serif;
     color:   rgb(112, 24, 4);
