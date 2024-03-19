@@ -19,12 +19,12 @@ body{
     width: 100%;
     margin: 0;
     padding: 0%;
-    background-color: rgb(255, 251, 233);
+    background-image: linear-gradient(81deg, #e27f7a, #d59095, #c3a0b1, #acafce);
 }
 
 /*Navigation Bar*/
 .Nav-Bar{
-    background-color: rgb(255, 251, 233);
+    background-image: linear-gradient(81deg, #e27f7a, #d59095, #c3a0b1, #acafce);
     padding-bottom: 22px;
 }
 
@@ -142,7 +142,8 @@ a.topnav-left {
 .Section-2{
     display: inline-block;
     position: relative;
-    background-color: rgb(255, 251, 233);
+    background: -webkit-linear-gradient(to right, #061161, #780206);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #061161, #780206);
     background-size: 100% 110%;
     height:750px;
     width: 100%;
@@ -160,57 +161,128 @@ a.topnav-left {
 
 .top-div {
   flex: 8;
-  background-color: #f2f2f2;
+  display: flex;
+  justify-content: center; /* 水平居中 */
+  align-items: center; /* 垂直居中 */
+  height: 300px; /* 设置div的高度 */
+}
+
+.top-div img {
+  width: 100%; /* 图片宽度充满整个top-div容器 */
+  max-height: 100%; /* 图片最大高度为父元素高度 */
+  display: block; /* 去除图片默认的行内元素间距 */
+  margin: auto; /* 水平垂直居中 */
+    margin-top: 20px;
+  object-fit: contain; /* 确保图片不会变形，同时填充整个区域 */
 }
 
 .bottom-div {
   flex: 2;
   display: flex;
-  justify-content: space-between;
+  justify-content: center; /* 水平居中 */
   align-items: center;
   padding: 10px;
+
 }
 
-.buttons button {
-  width: 150px;
-  height: 40px;
-  border-radius: 5px;
-  border: none;
-  background-color: #4caf50;
+button {
+  border: 0;
+  margin: 20px;
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 15px 50px;
+  border-radius: 50px;
   color: white;
-  font-size: 16px;
-  cursor: pointer;
+  outline: none;
+  position: relative;
 }
 
-.buttons button:hover {
-  background-color: #45a049;
+button:before{
+  content: '';
+  display: block;
+  background: linear-gradient(to left, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0.4) 50%);
+  background-size: 210% 100%;
+  background-position: right bottom;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  bottom:0;
+  right:0;
+  left: 0;
+  border-radius: 50px;
+  transition: all 1s;
+  -webkit-transition: all 1s;
+}
+.start-button{
+    background-image: linear-gradient(to right, #25aae1, #40e495);
+   box-shadow: 0 4px 15px 0 rgba(49, 196, 190, 0.75);
+}
+.start-button:hover:before {
+  background-position: left bottom;
+}
+.stop-button{
+    background-image: linear-gradient(to right, #6253e1, #852D91);
+   box-shadow: 0 4px 15px 0 rgba(236, 116, 149, 0.75);
+}
+.stop-button:hover:before {
+  background-position: left bottom;
 }
 .Section-22 {
   height: 100%;
   width: 40%;
   float: left;
   box-sizing: border-box;
-  border: 1px solid black; /* 可选：添加边框以便查看分割效果 */
   display: flex;
   flex-direction: column;
 }
 
-.Section-22 .data1 {
+.Section-22 .data1,
+.Section-22 .data2,
+.Section-22 .data3 {
   flex: 1;
-  border: 1px solid black; /* 可选：添加边框以便查看分割效果 */
-  /* data1的样式 */
+  position: relative;
 }
 
-.Section-22 .data2 {
-  flex: 1;
-  border: 1px solid black; /* 可选：添加边框以便查看分割效果 */
-  /* data2的样式 */
+.Section-22 .data1 .DataTitle1,
+.Section-22 .data2 .DataTitle2,
+.Section-22 .data3 .DataTitle3 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%; /* 确保标题框与dataX同宽 */
+  height: 30px; /* 标题框高度 */
+  background: #654ea3;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #eaafc8, #654ea3);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #eaafc8, #654ea3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  display: flex; /* 使用flex布局 */
+  align-items: center; /* 垂直居中 */
+  justify-content: center; /* 水平居中 */
+  text-align: center; /* 居中标题文本 */
+  box-sizing: border-box;
+  padding: 5px; /* 可根据需要调整标题框的内边距 */
 }
-.Section-22 .data3{
-  flex: 1;
-  border: 1px solid black; /* 可选：添加边框以便查看分割效果 */
-  /* data2的样式 */
+
+/* 可根据需要对标题文本进行样式设置 */
+.Section-22 .data1 .DataTitle1 h1,
+.Section-22 .data2 .DataTitle2 h1,
+.Section-22 .data3 .DataTitle3 h1 {
+  margin: 0;
+  color: #061161;
 }
+
+.Section-22 .DataImage1,
+.Section-22 .DataImage2,
+.Section-22 .DataImage3 {
+  width: 100%;
+    display: flex;
+justify-content: center;
+align-items:center ;
+  height: calc(100% - 30px); /* 图片高度为标题框高度之外的剩余高度 */
+    margin-top: 30px;
+}
+
 .LiveTitle h1{
     font-family: 'EB Garamond', serif;
     color:   rgb(112, 24, 4);
@@ -280,14 +352,40 @@ input[type=submit]:hover{
 }
 
 
-.Section-3{  
+.Section-3.result {
+    text-align: center; /* 让h1水平居中 */
+
+}
+
+/* 其他样式保持不变 */
+.Section-3 {
     display: inline-block;
     position: relative;
-    background-color: #ecf3c6;
-    height: 280px;
+    background-image: linear-gradient(81deg, #e27f7a, #d59095, #c3a0b1, #acafce);
+    height: 200px;
     width: 100%;
     margin-top: -5px;
 }
+
+.container {
+    width: 100%;
+    background-color: #ddd;
+}
+
+.skills {
+    text-align: right;
+    padding-right: 20px;
+    line-height: 40px;
+    color: white;
+}
+
+.html {
+    width: 90%;
+    background: #ad5389;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #3c1053, #ad5389);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #3c1053, #ad5389); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
 
 .guidelines{
     position: absolute;

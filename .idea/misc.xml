@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Black">
-    <option name="sdkName" value="fireEye" />
-  </component>
-  <component name="Black">
     <option name="sdkName" value="fireEye1" />
   </component>
-  <component name="ProjectRootManager" version="2" project-jdk-name="fireEye1" project-jdk-type="Python SDK" />
+  <component name="ProjectRootManager" version="2" project-jdk-name="gyt" project-jdk-type="Python SDK" />
 </project>
