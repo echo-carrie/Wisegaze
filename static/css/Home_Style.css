@@ -389,7 +389,7 @@ background: linear-gradient(to right, #061161, #780206); /* W3C, IE 10+/ Edge, F
   width: 20%;
   margin-top: 13%;
   margin-left: 5%;
-  background-color: rgb(255, 251, 233);
+  background-color: #B2ACC7;
   display: inline-block;
 }
 .Services.Service-2{
@@ -409,7 +409,7 @@ background: linear-gradient(to right, #061161, #780206); /* W3C, IE 10+/ Edge, F
 .ServiceDetails{
   margin-top: 22%;
   position: relative;
-  background-color: #214808;
+  background-color: #482F61;
 }
 
 /*Service Headings Padding Margin Setting*/
