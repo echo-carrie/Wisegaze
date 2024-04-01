@@ -22,7 +22,6 @@ body{
 
 /*Navigation Bar*/
 .Nav-Bar{
-    background-image: url('/static/pexels-photo-1547813.jpeg');
     background-size: 100% 100%;
     background-repeat: no-repeat;
     height: 100%;
@@ -121,12 +120,14 @@ a.topnav {
     height: 1750px;
     width: 79.56%;
     display: inline-block;
-    background-color: rgb(255, 251, 233);
+    background-image: linear-gradient(81deg, #e27f7a, #d59095, #c3a0b1, #acafce);
 }
 
 .dash-title{
     margin-top: 4%;
-    background: linear-gradient(119deg, rgba(61,5,5,1) 47%, rgba(208,106,0,1) 100%);
+    background: #780206;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #061161, #780206);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #061161, #780206);
 }
 
 .dash-title h1{
@@ -173,7 +174,7 @@ th {
 }
 
 td{
-    border-bottom: 1px solid rgba(61,5,5,1);
+    border-bottom: 1px solid #061161;
     padding: 20px 0px;
     text-align: center;
 }
