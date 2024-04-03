@@ -1,17 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=EB+Garamond&family=Elsie&family=Fjalla+One&family=Source+Serif+Pro:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+SC&display=swap');
 
 html {
   scroll-behavior: smooth;
+  font-family: "Noto Serif SC", sans-serif;
 }
 
 title{
-  font-family: 'Elsie',cursive;
+  font-family: "Noto Serif SC", sans-serif;
 }
 
 body{
   margin: 0px auto 0px auto;
   max-width: 1150px;  
   min-width: 1140px;
+  font-family: "Noto Serif SC", sans-serif;
 }
 
 b{
@@ -133,14 +136,16 @@ a.topnav-left {
   margin-top: 10%;
   margin-bottom: 0%;
   margin-left: 3.5%;
-  font-family: 'Source Serif Pro', serif;
   font-weight: lighter;
   font-size: 25px;
   color:rgb(253, 253, 253);
+
+
 }
 
 .Section-1 h2{
-  font-family: 'Elsie', cursive;
+  font-family: "Noto Serif SC", sans-serif;
+  font-style: normal;
   color: rgb(255, 166, 0);
   font-size: 80px;
   font-weight: lighter;
@@ -148,6 +153,8 @@ a.topnav-left {
   margin-left: 4.5%;
   margin-bottom: 0%;
   float: left;
+
+
 }
 
 .slogan{
@@ -155,7 +162,7 @@ a.topnav-left {
 }
 
 .Section-1 h3{
-  font-family: 'EB Garamond', serif;
+  font-family: "Noto Serif SC", sans-serif;
   font-weight: lighter;
   font-size: 20px;
   color:rgb(253, 253, 253);
@@ -233,7 +240,7 @@ a.topnav-left {
 }
 
 .AboutDetails h1{
-  font-family: 'EB Garamond', serif;
+  font-family: "Noto Serif SC", sans-serif;
   color:   rgb(112, 24, 4);
   font-size: 35px;
   margin-left: 50%;
@@ -249,7 +256,7 @@ a.topnav-left {
 }
 
 .AboutDetails p{
-  font-family: 'EB Garamond', serif;
+  font-family: "Noto Serif SC", sans-serif;
   font-size: 18px;
   position:absolute;
   margin-left: 50%;
@@ -267,7 +274,7 @@ a.topnav-left {
 }
 
 .AboutTable td{
-  font-family: 'EB Garamond', serif;
+  font-family: "Noto Serif SC", sans-serif;
   font-size: 16px;
   color: rgb(112, 24, 4);
   font-weight: bold;
@@ -356,7 +363,7 @@ background: linear-gradient(to right, #061161, #780206); /* W3C, IE 10+/ Edge, F
 }
 
 .ServicesTitle h1{
-  font-family: 'Source Serif Pro', serif;
+  font-family: "Noto Serif SC", sans-serif;
   font-weight: bolder;
   font-size: 18px;
   text-align: center;
@@ -367,7 +374,7 @@ background: linear-gradient(to right, #061161, #780206); /* W3C, IE 10+/ Edge, F
 }
 
 .ServicesTitle h2{
-  font-family: 'EB Garamond', serif;
+ font-family: "Noto Serif SC", sans-serif;
   color:#E5BEBB;
   font-size: 35px;
   text-align: center;
@@ -414,7 +421,7 @@ background: linear-gradient(to right, #061161, #780206); /* W3C, IE 10+/ Edge, F
 
 /*Service Headings Padding Margin Setting*/
 .ServiceDetails h1{
-  font-family: 'EB Garamond', serif;
+  font-family: "Noto Serif SC", sans-serif;
   font-size: 26px;
   text-align: center;
   color: rgb(255, 251, 233);
@@ -485,7 +492,7 @@ background: linear-gradient(to right, #061161, #780206); /* W3C, IE 10+/ Edge, F
 }
 
 .ChooseDetails h1{
-  font-family: 'EB Garamond', serif;
+  font-family: "Noto Serif SC", sans-serif;
   color:   rgb(112, 24, 4);
   font-size: 35px;
   text-align: center;
@@ -504,7 +511,7 @@ background: linear-gradient(to right, #061161, #780206); /* W3C, IE 10+/ Edge, F
 
 .ChooseDetails p{
   position: absolute;
-  font-family: 'EB Garamond', serif;
+  font-family: "Noto Serif SC", sans-serif;
   font-size: 20px;
   text-align: left;
   margin-left: 12%;
@@ -537,7 +544,7 @@ background: linear-gradient(to right, #061161, #780206); /* W3C, IE 10+/ Edge, F
 
 .Statistic-Title h1{
   background-color: rgb(112, 24, 4);
-  font-family: 'Source Serif Pro', serif;
+  font-family: "Noto Serif SC", sans-serif;
   font-weight: bolder;
   letter-spacing: 0.1em;
   color: rgb(255, 251, 233);
@@ -568,7 +575,7 @@ background: linear-gradient(to right, #061161, #780206); /* W3C, IE 10+/ Edge, F
   display: flex;
   flex-direction: column;
   font-size: 60px;
-  font-family: 'EB Garamond', serif;
+  font-family: "Noto Serif SC", sans-serif;
   font-weight: bold;
   justify-content: center;
   height: 75px;
@@ -579,7 +586,7 @@ background: linear-gradient(to right, #061161, #780206); /* W3C, IE 10+/ Edge, F
 .counter-count h1{
   color: white;
   font-weight: lighter;
-  font-family: 'EB Garamond', serif;
+  font-family: "Noto Serif SC", sans-serif;
   border-top: 1px solid white;
   padding-top: 3%;
   font-size: 1.7rem;
@@ -595,7 +602,7 @@ background: linear-gradient(to right, #061161, #780206); /* W3C, IE 10+/ Edge, F
 
 .Statistic-Title2 h1{
   background-color: rgb(112, 24, 4);
-  font-family: 'Source Serif Pro', serif;
+  font-family: "Noto Serif SC", sans-serif;
   font-weight: bolder;
   letter-spacing: 0.1em;
   color: rgb(255, 251, 233);
@@ -614,7 +621,7 @@ background: linear-gradient(to right, #061161, #780206); /* W3C, IE 10+/ Edge, F
 
 .Statistic-Para p{
   color: white;
-  font-family: 'EB Garamond', serif;
+  font-family: "Noto Serif SC", sans-serif;
   text-align: justify;
   padding: 10px 20px;
   padding-top: 20px;
@@ -643,7 +650,7 @@ background: linear-gradient(to right, #061161, #780206); /* W3C, IE 10+/ Edge, F
   display: flex;
   flex-direction: column;
   font-size: 50px;
-  font-family: 'EB Garamond', serif;
+  font-family: "Noto Serif SC", sans-serif;
   font-weight: bold;
   justify-content: center;
   height: 140px;
@@ -657,7 +664,7 @@ background: linear-gradient(to right, #061161, #780206); /* W3C, IE 10+/ Edge, F
   background-color: rgb(112, 24, 4);
   border-radius: 10px;
   font-weight: lighter;
-  font-family: 'EB Garamond', serif;
+  font-family: "Noto Serif SC", sans-serif;
   padding-top: 3%;
   padding-bottom: 3%;
   width: 140px;
@@ -708,14 +715,14 @@ background: linear-gradient(to right, #061161, #780206); /* W3C, IE 10+/ Edge, F
 }
 
 .NewsHeading p{
-  font-family: 'Source Serif Pro', serif;
+  font-family: "Noto Serif SC", sans-serif;
   font-size: 14px;
   color: white;
   margin-bottom: 1.5%;
 }
 
 .NewsHeading a{
-  font-family: 'Source Serif Pro', serif;
+  font-family: "Noto Serif SC", sans-serif;
   font-size: 20px;
   color: white;
   font-weight: bolder;
@@ -797,12 +804,12 @@ background: linear-gradient(to right, #061161, #780206); /* W3C, IE 10+/ Edge, F
 .footer-h1{
   margin-top: 0;
   font-size: 30px;
-  font-family: 'EB Garamond', serif;
+  font-family: "Noto Serif SC", sans-serif;
   color: rgb(255, 251, 233);
 }
 
 .Column-1 p{
-  font-family: 'EB Garamond', serif;
+  font-family: "Noto Serif SC", sans-serif;
   color: rgb(255, 251, 233);
   font-size: 18px;
   text-align: justify;
@@ -811,7 +818,7 @@ background: linear-gradient(to right, #061161, #780206); /* W3C, IE 10+/ Edge, F
 
 .Column-2 a{
   text-decoration: none;
-  font-family: 'EB Garamond', serif;
+  font-family: "Noto Serif SC", sans-serif;
   font-size: 18px;
   color: rgb(255, 251, 233);
   margin-top: 4%;
@@ -828,7 +835,7 @@ background: linear-gradient(to right, #061161, #780206); /* W3C, IE 10+/ Edge, F
 
 .Column-3 p{
   color: rgb(255, 251, 233);
-  font-family: 'EB Garamond', serif;
+  font-family: "Noto Serif SC", sans-serif;
   font-size: 18px;
 }
 
@@ -838,7 +845,7 @@ background: linear-gradient(to right, #061161, #780206); /* W3C, IE 10+/ Edge, F
 
 .Column-4 a{
   text-decoration: none;
-  font-family: 'EB Garamond', serif;
+  font-family: "Noto Serif SC", sans-serif;
   color: white; 
   padding: 15px;
   padding-bottom: 8px;

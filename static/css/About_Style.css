@@ -1,16 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=EB+Garamond&family=Elsie&family=Fjalla+One&family=Source+Serif+Pro:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+SC&display=swap');
 html {
     scroll-behavior: smooth;
+     font-family: "Noto Serif SC", sans-serif;
 }
 
 title{
-    font-family: 'Elsie',cursive;
+    font-family: "Noto Serif SC", sans-serif;
 }
 
 body{
     margin: 0px auto 0px auto;
     max-width: 1150px;  
     min-width: 1140px;
+     font-family: "Noto Serif SC", sans-serif;
 }
 
 .Section-1{  
@@ -43,7 +46,7 @@ a.topnav-left {
     position: absolute;
     left: 12.5%;
     top: 6%;
-    font-family: 'Elsie', cursive;
+    font-family:"Noto Serif SC", sans-serif;
     font-size: 30px;
     text-decoration: none;
     color: rgb(112, 24, 4);
@@ -62,7 +65,7 @@ a.topnav-left {
     
 .Navigation-Bar li a {
     display: block;
-    font-family: 'Source Serif Pro', serif;
+    font-family: "Noto Serif SC", sans-serif;
     text-align: center;
     color: rgb(112, 24, 4);
     padding: 9px 16px;
@@ -95,7 +98,7 @@ a.topnav-left {
 }
 
 .Content-text h1{
-    font-family: 'Elsie', cursive;
+    font-family: "Noto Serif SC", sans-serif;
     color: rgb(255, 166, 0);
     font-size: 85px;
     font-weight: lighter;
@@ -105,7 +108,7 @@ a.topnav-left {
 
 .Content-text a{
     text-decoration: none;
-    font-family: 'Source Serif Pro', serif;
+    font-family: "Noto Serif SC", sans-serif;
     font-weight: lighter;
     font-size: 18px;
     color:rgb(253, 253, 253);
@@ -113,7 +116,7 @@ a.topnav-left {
 }
 
 .Content-text p{
-    font-family: 'Source Serif Pro', serif;
+    font-family: "Noto Serif SC", sans-serif;
     font-weight: lighter;
     font-size: 18px;
     color:rgb(253, 253, 253);
@@ -149,7 +152,7 @@ a.topnav-left {
 }
 
 .AboutDetails h1{
-    font-family: 'EB Garamond', serif;
+    font-family: "Noto Serif SC", sans-serif;
     color:  #E5BEBB;
     font-size: 35px;
     position: absolute;
@@ -171,7 +174,7 @@ a.topnav-left {
 }
 
 .AboutContent p, li{
-    font-family: 'EB Garamond', serif;
+    font-family: "Noto Serif SC", sans-serif;
     font-size: 18px;
     text-align: justify;
     color: white;
@@ -203,7 +206,7 @@ a.topnav-left {
 }
 
 .GoalsDetail h1{
-    font-family: 'Source Serif Pro', serif;
+    font-family: "Noto Serif SC", sans-serif;
     font-weight: bolder;
     font-size: 18px;
     text-align: center;
@@ -214,7 +217,7 @@ a.topnav-left {
 }
   
 .GoalsDetail h2{
-    font-family: 'EB Garamond', serif;
+    font-family: "Noto Serif SC", sans-serif;
     color: rgb(112, 24, 4);
     font-size: 35px;
     text-align: center;
@@ -233,7 +236,7 @@ a.topnav-left {
   
 .GoalsDetail p{
     position: absolute;
-    font-family: 'EB Garamond', serif;
+    font-family: "Noto Serif SC", sans-serif;
     font-size: 18px;
     text-align: center;
     margin-left: 12%;
@@ -259,7 +262,7 @@ a.topnav-left {
 }
 
 .GoalPoints h1{
-    font-family: 'EB Garamond', serif;
+    font-family: "Noto Serif SC", sans-serif;
     color: #E5BEBB;
     font-size: 35px;
     position: absolute;
@@ -274,7 +277,7 @@ a.topnav-left {
 }
   
 .GoalPoints p{
-    font-family: 'EB Garamond', serif;
+    font-family:"Noto Serif SC", sans-serif;
     font-size: 16px; 
     text-align: justify;
     position: absolute;
@@ -465,7 +468,7 @@ a.topnav-left {
   }
 
 .FooterCap h1{
-    font-family: 'Fjalla One', sans-serif;;
+    font-family:"Noto Serif SC", sans-serif;
     color: rgb(255, 251, 233);
     text-align: center;
     font-size: 35px;
@@ -531,12 +534,12 @@ a.topnav-left {
   .footer-h1{
     margin-top: 0;
     font-size: 30px;
-    font-family: 'EB Garamond', serif;
+    font-family:"Noto Serif SC", sans-serif;
     color: rgb(255, 251, 233);
   }
   
   .Column-1 p{
-    font-family: 'EB Garamond', serif;
+    font-family: "Noto Serif SC", sans-serif;
     color: rgb(255, 251, 233);
     font-size: 18px;
     text-align: justify;
@@ -545,7 +548,7 @@ a.topnav-left {
   
   .Column-2 a{
     text-decoration: none;
-    font-family: 'EB Garamond', serif;
+    font-family:"Noto Serif SC", sans-serif;
     font-size: 18px;
     color: rgb(255, 251, 233);
     margin-top: 4%;
@@ -562,7 +565,7 @@ a.topnav-left {
   
   .Column-3 p{
     color: rgb(255, 251, 233);
-    font-family: 'EB Garamond', serif;
+    font-family: "Noto Serif SC", sans-serif;
     font-size: 18px;
   }
   
@@ -572,7 +575,7 @@ a.topnav-left {
   
   .Column-4 a{
     text-decoration: none;
-    font-family: 'EB Garamond', serif;
+    font-family:"Noto Serif SC", sans-serif;
     color: white; 
     padding: 15px;
     padding-bottom: 8px;

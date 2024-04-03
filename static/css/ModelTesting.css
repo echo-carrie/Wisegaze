@@ -1,16 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=EB+Garamond&family=Elsie&family=Fjalla+One&family=Source+Serif+Pro:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+SC&display=swap');
 html {
     scroll-behavior: smooth;
+     font-family: "Noto Serif SC", sans-serif;
 }
 
 title{
-    font-family: 'Elsie',cursive;
+    font-family: "Noto Serif SC", sans-serif;
 }
 
 body{
     margin: 0px auto 0px auto;
     max-width: 1150px;  
     min-width: 1140px;
+     font-family: "Noto Serif SC", sans-serif;
 }
 
 .image-overlay{
@@ -46,7 +49,7 @@ a.topnav {
     position: absolute;
     left: 35%;
     top: 10%;
-    font-family: 'Elsie', cursive;
+    font-family: "Noto Serif SC", sans-serif;
     font-size: 30px;
     text-decoration: none;
     color: rgb(255, 251, 233);
@@ -67,7 +70,7 @@ a.topnav {
     
 .Navigation-Bar li a {
     display: block;
-    font-family: 'Source Serif Pro', serif;
+    font-family: "Noto Serif SC", sans-serif;
     text-align: center;
     color: rgb(255, 251, 233);
     padding: 9px 16px;
@@ -92,7 +95,7 @@ a.topnav {
     margin-left: 7%;
     margin-bottom: 4%;
     padding: 10px 16px;
-    font-family: 'Source Serif Pro', serif;
+    font-family: "Noto Serif SC", sans-serif;
     text-align: center;
     color: rgb(255, 251, 233);
     font-weight: bold;
@@ -130,7 +133,7 @@ a.topnav {
 }
 
 .dash-title h1{
-    font-family: 'EB Garamond', serif;
+    font-family:"Noto Serif SC", sans-serif;
     color:  rgb(255, 251, 233);
     font-size: 35px;
     display: inline-block;
@@ -150,7 +153,7 @@ a.topnav {
   }
 
 .param-title h1{
-    font-family: 'EB Garamond', serif;
+    font-family: "Noto Serif SC", sans-serif;
     color:   rgb(112, 24, 4);
     font-size: 35px;
     position: absolute;
@@ -159,7 +162,7 @@ a.topnav {
 }
 
 .param-title h2{
-    font-family: 'EB Garamond', serif;
+    font-family:"Noto Serif SC", sans-serif;
     color:   rgb(112, 24, 4);
     position: absolute;
     margin-left: -3%; 
@@ -204,7 +207,7 @@ a.topnav {
     display: flex;
     flex-direction: column;
     font-size: 60px;
-    font-family: 'EB Garamond', serif;
+    font-family: "Noto Serif SC", sans-serif;
     font-weight: bold;
     text-align: left;
     margin-left: 20%;
@@ -223,7 +226,7 @@ a.topnav {
   .counter-count h1{
     color: white;
     font-weight: lighter;
-    font-family: 'EB Garamond', serif;
+    font-family: "Noto Serif SC", sans-serif;
     border-top: 1px solid white;
     padding-top: 3%;
     font-size: 1.7rem;
