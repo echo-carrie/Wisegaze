@@ -10,8 +10,8 @@
     <!-- 引入 Font Awesome 图标 -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- 设置网站图标 -->
-    <link rel="icon" href="{{url_for('static', filename='Fire_logo_title.jpg')}}" type="image/jpg" sizes="128x128" >
-    <title>Fire Eye</title>
+    <link rel="icon" href="{{url_for('static', filename='Car_Logo.png')}}" type="image/jpg" sizes="128x128" >
+    <title>慧眸智行</title>
 </head>
 
 <body>
@@ -34,15 +34,10 @@
         <li class="Nav-Link"><a  href="{{url_for('.Home', _anchor='section8')}}"><i style="padding-right:10px;" class="fa fa-phone"></i>联系方式</a></li>
         </div>
     </ul>
-
-        <!-- 网站标题 -->
-    <h1></h1>
-         <!-- 口号 -->
     <div class="slogan">
     <h2>疲劳驾驶检测系统</h2>
 
     </div>
-        
         <!-- 引用 -->
     <div class="Quote">
     <h3>"旅途漫漫，难免疲惫。疲劳驾驶，犹如一场无形的瘟疫，吞噬着无数鲜活的生命。在生命的旅途中，安全永远是第一位的。让我们携手对抗疲劳驾驶，保护每一条宝贵的生命，让旅途不再是对生存的威胁，而是一段安全愉快的旅程。"</h3>
@@ -129,7 +124,7 @@
                 <a style="text-decoration: none; color: black;" href="{{url_for('View.Location')}}"><span class="dot"><i style="margin-left: 30%; margin-top: 14.8%;" class="fa fa-angle-right fa-2x"></i></span></a>
             </div>
             <div class="ServiceDetails  Service-2">
-                <h1>Location Tracker</h1>
+                <h1>导航</h1>
             </div>
         </div>
 
@@ -160,7 +155,7 @@
     <div class="Section-4">       
         <div class="ChooseDetails reveal fade-top">
             <h1>选择我们</h1>
-            <img src="static/img/DecCar/b52c725ee173df8879a634a835cf14b.png" height="100px" width="85px">
+            <img src="static/img/DecCar/DeepCar.png" height="100px" width="85px">
             <p>据世界卫生组织发布的《2018 年全球道路安全 现状报告》，交通事故对全球公共健康造成重大负担，每年导致5000万人受伤和135万人死亡。道路交通事故不仅威胁到人的生命，而且给人们的财产造成损失。因此，对驾驶员在驾驶过程中进行疲劳程度的监测具有重要的意义。监测驾驶员的疲劳程度可以帮助减少交通事故的发生，保障驾驶员和其他道路使用者的安全。
             </p>
         </div>
@@ -257,58 +252,50 @@
         </div>
     </div>
 </section>
-
-<section>
-    <div class="Section-7">
-        <div class="ServicesTitle reveal fade-top">
-            <h1>演示视频</h1>
-            <h2 style="margin-left: 28%;">慧眸智行如何进行疲劳驾驶检测</h2>
-            <img src="static/img/DecCar/b52c725ee173df8879a634a835cf14b.png" height="100px" width="85px">
-        </div>
-
-        <div class="Video">
-            <div class="scale-video">
-                <iframe src="/static/FIRE_EYE_DOCUMENTORY.mp4" sandbox="" frameborder="0"  allowfullscreen></iframe>
-            </div>
-        </div>
-    </div>
-</section>
+{##}
+{#<section>#}
+{#    <div class="Section-7">#}
+{#        <div class="ServicesTitle reveal fade-top">#}
+{#            <h1>演示视频</h1>#}
+{#            <h2 style="margin-left: 28%;">慧眸智行如何进行疲劳驾驶检测</h2>#}
+{#            <img src="static/img/DecCar/b52c725ee173df8879a634a835cf14b.png" height="100px" width="85px">#}
+{#        </div>#}
+{##}
+{#        <div class="Video">#}
+{#            <div class="scale-video">#}
+{#                <iframe src="/static/FIRE_EYE_DOCUMENTORY.mp4" sandbox="" frameborder="0"  allowfullscreen></iframe>#}
+{#            </div>#}
+{#        </div>#}
+{#    </div>#}
+{#</section>#}
 
 <section>
     <div class="Section-8" id="section8">
         <img src="/static/toppng.com-forest-png-image-forest-clip-art-black-and-white-2334x761.png" width="100%" height="320px">
         <div class="overlay">
             <div class="Column Column-1">
-                <h1 class="footer-h1">FIRE EYE</h1>
+                <h1 class="footer-h1">慧眸智行</h1>
                 <p>
-                   System that will analyze the scope of artificial intelligence for early 
-                   detection of fire and sending alerts with images and videos from 
-                   CCTV footage. 
+                   “慧眸智行"是一个实时的疲劳驾驶检测系统，用于检测驾驶员疲劳驾驶程度并在检测到驾驶员疲劳驾驶以后做出警报，并协助驾驶员采取相应缓解疲劳的措施，最大限度地预防由于疲劳驾驶而产生的交通事故。
                 </p>
             </div>
 
             <div class="Column Column-2">
-                <h1 class="footer-h1">EXPLORE</h1>
-                <p><a href="{{url_for('View.Home')}}">Home</a></p>
-                <p><a href="{{url_for('View.About')}}">About</a></p>
-                <p><a href="{{url_for('.Home', _anchor='section3')}}">Services</a></p>
-                <p><a href="{{url_for('.Home', _anchor='section6')}}">News</a></p>
+                <h1 class="footer-h1">导航</h1>
+                <p><a href="{{url_for('View.Home')}}">首页</a></p>
+                <p><a href="{{url_for('View.About')}}">关于</a></p>
+                <p><a href="{{url_for('.Home', _anchor='section3')}}">服务</a></p>
+                <p><a href="{{url_for('.Home', _anchor='section6')}}">新闻</a></p>
             </div>
 
             <div class="Column Column-3">
-                <h1 class="footer-h1">CONTACT</h1>
-                <p><i class="fa fa-home"></i>&nbspRawalpindi, Punjab, Pakistan</p>
-                <p class="Column-2"><i class="fa fa-envelope-square"></i><a  href="{{url_for('.Home', _anchor='section6')}}">&nbsp&nbspfypforestfire@gmail.com</a></p>
-                <p><i class="fa fa-phone"></i>&nbsp&nbsp0345-7865345</p>
+                <h1 class="footer-h1">介绍</h1>
+                <p><i class="fa fa-home"></i>&nbsp华南师范大学</p>
+                <p class="Column-2"><i class="fa fa-envelope-square"></i><a  href="{{url_for('.Home', _anchor='section6')}}">&nbsp&nbsp团队成员：陈秋羽</a></p>
+                <p>林榘驰&nbsp郭泳童&nbsp杨嘉仪&nbsp谭沛轩</p>
             </div>
             <div class="Column Column-4">
-                <h1 class="footer-h1">FOLLOW US</h1>
-                <p style="display: inline-block;"><a style="background-color: #3b5998; padding-left: 17.5px; padding-right: 17.5px;" href="https://www.facebook.com/" role="button"><i class="fa-brands fa-facebook-f"></i></a></p>
-                <p style="display: inline-block;"><a style="background-color: #55acee" href="https://twitter.com/" role="button"><i class="fa-brands fa-twitter"></i></a></p>
-                <p style="display: inline-block;"><a style="background-color: #dd4b39" href="{{url_for('View.Home')}}" role="button"><i class="fa-brands fa-google"></i></a></p><br>
-                <p style="display: inline-block;"><a style="background-color: #ac2bac" href="https://www.instagram.com/?hl=en" role="button"><i class="fa-brands fa-instagram"></i></a></p>
-                <p style="display: inline-block;"><a style="background-color: #0082ca; padding-left: 16px; padding-right: 16px;" href="https://www.linkedin.com/" role="button"><i class="fa-brands fa-linkedin"></i></a></p>
-                <p style="display: inline-block;"><a style="background-color: #333333" href="https://github.com/" role="button"><i class="fa-brands fa-github"></i></a></p>
+             <img class="logo" src="{{url_for('static', filename='Car_Logo.png')}}" height="200px" width="180px"style="margin-right:300px;margin-left: -100px">
             </div>
         </div>
     </div>

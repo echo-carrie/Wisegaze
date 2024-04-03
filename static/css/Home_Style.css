@@ -144,7 +144,7 @@ a.topnav-left {
   color: rgb(255, 166, 0);
   font-size: 80px;
   font-weight: lighter;
-  margin-top: 1%;
+  margin-top: 10%;
   margin-left: 4.5%;
   margin-bottom: 0%;
   float: left;
@@ -166,7 +166,7 @@ a.topnav-left {
   position: absolute;
   width: 30%;
   left: 65%;
-  top: 50%;
+  top: 30%;
 }
 
 .scroll-down{
@@ -756,7 +756,7 @@ background: linear-gradient(to right, #061161, #780206); /* W3C, IE 10+/ Edge, F
 .Section-8{
   display: inline-block;
   position: relative;
-  background-color: rgb(112, 24, 4);
+  background-color: #70030C;
   height: 320px;
   width: 100%;
 }
