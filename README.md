@@ -2,7 +2,7 @@
 
 # 慧眸智行
 
-![Contributors][contributors-shield]
+[![Contributors][contributors-shield]][https://github.com/echo-carrie/Wisegaze/graphs/contributors]
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
@@ -16,8 +16,7 @@
 
   <h3 align="center">慧眸智行</h3>
   <p align="center">
-    基于脑电和眼电多模态融合的疲
-劳驾驶检测系统
+    基于脑电和眼电多模态融合的疲劳驾驶检测系统
     <br />
   </p>
 
