@@ -1,22 +1,13 @@
-
-
 # 慧眸智行
 
-[![Contributors][contributors-shield]][https://github.com/echo-carrie/Wisegaze/graphs/contributors]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
-
-<p align="center">
+  <p align="center">
   <a href="https://github.com/shaojintian/Best_README_template/">
     <img src="https://i.postimg.cc/PxRcKZSx/428e9b08439e8a39830b78b635659a8.jpg" alt="Logo" width="80" height="80">
   </a>
-
-  <h3 align="center">慧眸智行</h3>
+<h3 align="center">慧眸智行</h3>
   <p align="center">
-    基于脑电和眼电多模态融合的疲劳驾驶检测系统
+    基于脑电和眼电多模态融合的疲
+劳驾驶检测系统
     <br />
   </p>
 
@@ -284,20 +275,24 @@ D:.
 ### 使用到的框架及组件
 
 - [YOLOv5](https://github.com/ultralytics/yolov5)
-- [Pytroch]([PyTorch](https://pytorch.org/))
+- [PyTorch](https://pytorch.org/)
 - [jQuery](https://jquery.com)
 - [Flask](https://flask.github.net.cn/)
 - [高德地图](https://github.com/ultralytics/yolov5)
 
-### 贡献者
-
-
-
-
-
 ### 作者
 
-xxx@xxxx
+华南师范大学 陈秋羽
+
+华南师范大学 林榘驰
+
+华南师范大学 郭泳童
+
+华南师范大学 杨嘉仪
+
+华南师范大学 谭沛轩
+
+华南师范大学 李文洁
 
 ### 鸣谢
 
@@ -306,8 +301,4 @@ xxx@xxxx
 - [stevenjoezhang/live2d-widget: 把萌萌哒的看板娘抱回家 (ノ≧∇≦)ノ | Live2D widget for web platform](https://github.com/stevenjoezhang/live2d-widget)
 
 [项目地址]:https://github.com/echo-carrie/Wisegaze	"慧眸智行"
-
-
-
-
 
